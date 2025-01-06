@@ -1,0 +1,1 @@
+Command to create the project: `npx create-expo-app tracks --template blank`
