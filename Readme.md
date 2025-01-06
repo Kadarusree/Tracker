@@ -20,10 +20,10 @@ Install Below Libraries:
 
 5. Create a babel.config.js file at the root of the project (where package.json file is located) and add the following code:
 
-module.exports = function (api) {
+`module.exports = function (api) {
   api.cache(true);
   return {
     presets: ["babel-preset-expo"],
     plugins: ["react-native-reanimated/plugin"],
   };
-};
+};`
